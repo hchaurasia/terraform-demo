@@ -27,7 +27,7 @@ jobs:
           aws-session-token: ${{secrets.AWS_SESSION_TOKEN}}
           aws-region: ${{ env.AWS_REGION }} # Use the region from your environment variables
         
-      # Set up the specified version of Terraform
+      # Set up the specified new Hemant version of Terraform
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
       
